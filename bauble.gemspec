@@ -8,9 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = Bauble::VERSION
   gem.authors       = ["Brian Roth"]
   gem.email         = ["brianroth@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.summary       = "Start somewhere"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
